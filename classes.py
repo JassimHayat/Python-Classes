@@ -24,10 +24,12 @@ def __str__(self):
 class SavingAccount(BankAccount):
      def withdraw(self):
         return "No withdrawals permitted"
-     
+
+
+
 account1 = BankAccount("Ahmed", 300)
 print(account1)
-print(account1.deposit(200))
+print(account1.deposit (200))
 
 print(account1.withdraw(100))
 print(account1.withdraw(500))
